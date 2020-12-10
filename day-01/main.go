@@ -35,7 +35,7 @@ func solvePartTwo(input []int) int {
 }
 
 func main() {
-	file, _ := os.Open("/home/nimbus/advent-of-code-20/day-1/input.txt")
+	file, _ := os.Open("/home/nimbus/advent-of-code-20/day-01/input.txt")
 	defer file.Close()
 	scanner := bufio.NewScanner(file)
 

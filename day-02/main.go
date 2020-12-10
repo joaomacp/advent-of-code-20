@@ -50,7 +50,7 @@ func isValidPart2(password string, policy Policy) bool {
 }
 
 func main() {
-	file, _ := os.Open("/home/nimbus/advent-of-code-20/day-2/input.txt")
+	file, _ := os.Open("/home/nimbus/advent-of-code-20/day-02/input.txt")
 	defer file.Close()
 	scanner := bufio.NewScanner(file)
 

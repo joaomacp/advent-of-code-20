@@ -128,7 +128,7 @@ func fixProgram(prog *Program) int {
 }
 
 func main() {
-	file, _ := os.Open("/home/nimbus/advent-of-code-20/day-8/input.txt")
+	file, _ := os.Open("/home/nimbus/advent-of-code-20/day-08/input.txt")
 	defer file.Close()
 	scanner := bufio.NewScanner(file)
 

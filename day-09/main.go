@@ -66,7 +66,7 @@ func findWeakness(data []int64, invalidNum int64) int64 {
 }
 
 func main() {
-	file, _ := os.Open("C:/Users/Nimbus/Documents/advent-of-code-20/day-9/input.txt")
+	file, _ := os.Open("C:/Users/Nimbus/Documents/advent-of-code-20/day-09/input.txt")
 	defer file.Close()
 	scanner := bufio.NewScanner(file)
 

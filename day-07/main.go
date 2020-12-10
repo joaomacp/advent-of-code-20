@@ -88,7 +88,7 @@ func (g TwoWayGraph) sumOfPathProducts(node string, accum int) int {
 }
 
 func main() {
-	file, _ := os.Open("/home/nimbus/advent-of-code-20/day-7/input.txt")
+	file, _ := os.Open("/home/nimbus/advent-of-code-20/day-07/input.txt")
 	defer file.Close()
 	scanner := bufio.NewScanner(file)
 

@@ -46,7 +46,7 @@ func solve(forms []Form) (int, int) {
 }
 
 func main() {
-	file, _ := os.Open("/home/nimbus/advent-of-code-20/day-6/input.txt")
+	file, _ := os.Open("/home/nimbus/advent-of-code-20/day-06/input.txt")
 	defer file.Close()
 	scanner := bufio.NewScanner(file)
 
