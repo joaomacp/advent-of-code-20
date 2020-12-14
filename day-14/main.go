@@ -34,8 +34,8 @@ func (p InitProgram) run(partTwo bool) {
 			if !partTwo {
 				p.mem[memAddress] = applyMaskPartOne(valueToWrite, p.mask)
 			} else {
-				for _, pos := range applyMaskPartTwo(memAddress, p.mask) {
-					p.mem[pos] = valueToWrite
+				for _, addr := range applyMaskPartTwo(memAddress, p.mask) {
+					p.mem[addr] = valueToWrite
 				}
 			}
 		}
